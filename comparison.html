@@ -52,29 +52,48 @@
         </div> <!--` End of Navbar Container Div-->
       </nav> <!-- End of Navbar-->
 
-      <div class='container' id='maxtemp-container'> <!--Start of Content Container-->
+      <div class='container' id='content-container'> <!--Start of Content Container-->
         <div class='row'> <!-- Start of Content Row-->
           <div class='col-md-8'> <!-- Start of Summary Column-->
-            <article>
-              <h1>Humidity</h1>
+            <article class='viz-info'>
+              <h1>Comparison: Latitude vs. X</h1>
               <hr/>
-              <img src='Resources/assets/images/Fig2.png' class='humidity-image'/>
-              <p>The correlation between latitude and humidity is not strong in itself. Despite this observation, the data suggests that in certain areas as the latitude decreases, the humidity gradually decreases as well.  </p></article>
-          </div> <!-- End of Summary Column-->
-          <div class='col-md-4'> <!-- Start of Visualization Column-->
-            <div class='container viz-info'>
-            <h2>Visualizations</h2>
-            <hr/>
-            <div class='row'></div>
-                <a href="maxtemperature.html"><img src="Resources/assets/images/Fig1.png" class="small-image"></a>
-                <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" class="small-image"></a>
-                <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" class="small-image"></a>
-                <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" class="small-image"></a>
-            </div>
-          </div> <!-- End of Visualization Column-->
-      </div> <!--End of Content Container-->
+              <a>Click any plot to get an in-depth analysis.</a>
+              <div class="container" style="padding-bottom: 40px;">
+                  <div class="row">
+                      <div class="col-lg-8" style="padding: 20px;">
+                        <h2>vs. Max Temperature</h2> 
+                          <a href="maxtemperature.html">
+                              <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" , title="Latitude vs. Max Temperature" class="comparison">
+                          </a>
+                      </div>
+                      <div class='col-lg-8' style='padding: 20px;'>
+                          <h2>vs. Humidity</h2> 
+                          <a href="humidity.html">
+                              <img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" , title="Latitude vs. Humidity" class="comparison">
+                          </a>
+                      </div>
+                      <div class="col-lg-8" style="padding: 20px;">
+                          <h2>vs. Cloudiness</h2> 
+                          <a href="cloudiness.html">
+                              <img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" , title="Latitude vs. Cloudiness" , class="comparison">
+                          </a>
+                      </div>
+                      <div class="col-lg-8" style="padding: 20px;">
+                          <h2>vs. Wind Speed</h2> 
+                          <a href="windspeed.html">
+                              <img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" , title="Latitude vs. Wind Speed" , class="comparison">
+                          </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    </div> <!-- End of Page Container-->
-  
-  </body>
-  </html>
+            </div>
+        </section>
+    </div>
+    <!-- End of container -->
+
+</body>
+
+</html>

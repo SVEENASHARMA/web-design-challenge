@@ -15,6 +15,7 @@ h2 {
     font-weight: bold;
     font-size: 20px;
 }
+
 .summary-image {
     width: 300px;
     float: left;
@@ -28,6 +29,16 @@ h2 {
 .humidity-image{
     width: 700px;
     float: left;
+}
+
+.comparison{
+    width: 500px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px 30px 40px;
+    color: black;
+    background-color: white;
+    style:'width: 100%'
 }
 
 .cloudiness-image{
