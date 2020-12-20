@@ -30,6 +30,11 @@ h2 {
     float: left;
 }
 
+.cloudiness-image{
+    width: 700px;
+    float: left;
+}
+
 .small-image {
     width: 150px;
 }
