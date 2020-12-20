@@ -16,6 +16,13 @@ h2 {
     font-size: 20px;
 }
 
+h3 {
+    color:teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .summary-image {
     width: 300px;
     float: left;
@@ -50,6 +57,9 @@ h2 {
     width: 150px;
 }
 
+.medium-image {
+    width: 600px;
+}
 .navbar-links{
     float: right;
 }
